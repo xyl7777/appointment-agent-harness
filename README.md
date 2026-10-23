@@ -36,9 +36,7 @@ The baseline would use direct tool calls with basic parameter validation and fix
 
 Success would require the correct database state, valid confirmation for every write, no duplicate or unintended update, and an answer consistent with the backend. Additional measures would include fault-case completion, duplicate-write incidence, and API calls across both successful and failed runs. Development failures could inform human-reviewed prompt and intent revisions before a fresh evaluation.
 
-## References and provenance
+## References
 
 - [NeuralSeek mAIstro documentation](https://documentation.neuralseek.com/ui/maistro/)
 - [SQLAlchemy bound parameters](https://docs.sqlalchemy.org/en/20/core/sqlelement.html#sqlalchemy.sql.expression.bindparam)
-
-This design and its documentation were prepared with AI assistance. Implementation, individual contributions, and operational results remain to be documented through execution evidence.
